@@ -96,43 +96,13 @@ header #main-navigation ul li a:hover {
     padding: 5px 4px;
 } 
 
-/* HERO SECTION */
-
-.hero {
-    min-height: 450px;
-    text-align: center;
-    background: #555;
-    background-image: url('../images/chicago-skyline.jpg');
-    background-size: cover;
-}
-
-.hero-content {
-    color: ;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    line-height: 1.5;
-    font-family: 'Rock Salt', cursive, Arial;
-    text-shadow: 2px 2px 5px #FFFFFF;
-}
-
-.hero-title {
-    margin: 0;
-    font-size: 60px;
-}
-
-.hero-content p {
-    font-size: 35px; 
-    margin-bottom: 60px;
-    color: #ffffff;
-}
-
 /***INTRO COPY***/
 
 div.intro-sec {
     margin-left: 125px;
 }
 
-div.intro-para h2 {
+div.intro-para h1 {
 	margin: 30px;
     margin-left: 50px;
 	display: block;
@@ -255,31 +225,14 @@ div.footer-col img.social-icons {
 	    text-align: center;
 	}
 
-	/*  HERO  */
-    .hero {
-        min-height: 275px;
-    }
-    .hero-content {
-        padding-top: 50px;
-    }
-    .hero-title {
-        font-size: 26px;
-    }
-    .hero-content p {
-        font-size: 25px;
-        margin-bottom: 25px;
-    }
-
     /* INTRO */
     div.intro-sec {
         margin:0;
     }
-
-    div.intro-para h2 {
+    div.intro-para h1 {
     	text-align: center;
     	font-size: 30px;
     }
-    
     div.intro-para p {
 		font-size: 18px;
 		line-height: 1.2;
