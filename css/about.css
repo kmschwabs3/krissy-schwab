@@ -99,23 +99,36 @@ header #main-navigation ul li a:hover {
 /***INTRO COPY***/
 
 div.intro-sec {
-    margin-left: 125px;
+    margin-left: 100px;
 }
 
 div.intro-para h1 {
 	margin: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
 	display: block;
 	vertical-align: middle;
 	font-size: 40px;
 }
 
 div.intro-para p {
-	margin: 30px;
-    margin-left: 50px;
+	margin: 20px;
+    margin-left: 5px;
 	display: block;
 	font-size: 20px;
 	line-height: 1.25;
+}<div class="intro-list">
+
+div.intro-list {
+    margin: 2px;
+}
+
+div.intro-list h2 {
+    margin:3px;
+}
+
+div.intro-list ol {
+    margin:3px;
+    padding: 10px;
 }
 
 div.intro-image img {
@@ -133,6 +146,7 @@ div.intro-image img {
 }
 
 .middle {
+  text-align: center;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -142,27 +156,19 @@ div.intro-image img {
   -ms-transform: translate(-50%, -50%)
 }
 
+.middle div.hoover-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .container:hover .middle {
   opacity: 1;
 }
 
-.link-text {
-  background-color: #013F79;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.link-text a:link {
-    color: #FFFFFFFF;
-}
-
-.link-text a:visited {
-    color: #C4C4C4FF;
-}
 
 /***FOOTER***/
 .footer-sec {
@@ -232,16 +238,25 @@ div.footer-col img.social-icons {
     div.intro-para h1 {
     	text-align: center;
     	font-size: 30px;
+        margin: 10px;
     }
     div.intro-para p {
-		font-size: 18px;
+		margin: 5px 10px 5px 20px;
+
+        font-size: 18px;
 		line-height: 1.2;
     }
+
+    div.list {
+         text-align: center;
+         list-style-position: inside;    
+     }
 
     div.intro-image img {
     	width: 300px;
     	height: auto;
     }
+
     /* FOOTER */
 
     div.footer-col{
