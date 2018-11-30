@@ -96,85 +96,63 @@ header #main-navigation ul li a:hover {
     padding: 5px 4px;
 } 
 
+/* HERO SECTION */
+
+.hero {
+    min-height: 450px;
+    text-align: center;
+    background: #555;
+    background-image: url('../images/mlb-baseball-nacho-helmets.jpg');
+    background-size: cover;
+}
+
+.hero-content {
+    color: ;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-family: 'Rock Salt', cursive, Arial;
+    text-shadow: 2px 2px 5px #7A7A7A;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 60px;
+}
+
+.hero-content p {
+    font-size: 35px; 
+    margin-bottom: 60px;
+    color: #28A5FF;
+    text-shadow: 2px 2px 5px #000000;
+}
+
 /***INTRO COPY***/
 
 div.intro-sec {
-    margin-left: 100px;
+    
 }
 
-div.intro-para h1 {
-	margin: 30px;
-    margin-left: 5px;
+div.intro-para h2 {
+	margin: 15px;
 	display: block;
 	vertical-align: middle;
 	font-size: 40px;
 }
 
 div.intro-para p {
-	margin: 20px;
-    margin-left: 5px;
+	margin: 15px;
 	display: block;
 	font-size: 20px;
 	line-height: 1.25;
-}<div class="intro-list">
-
-div.intro-list {
-    margin: 2px;
-}
-
-div.intro-list h2 {
-    margin:3px;
-}
-
-div.intro-list ol {
-    margin:3px;
-    padding: 10px;
-}
-
-div.intro-image img {
-	width: 400px;
-    height: auto;
-	margin: auto;
-	margin-top: 15px;
-	margin-bottom: 10px;
-	display: block;
-	box-shadow: -2px -2px 5px 2px rgba(0,0,0,.15), 2px 2px 7px 2px rgba(0,0,0,1);
-}
-
-.container {
-    position: relative;
-}
-
-.middle {
-  text-align: center;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.middle div.hoover-text{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.container:hover .image {
-  opacity: 0.2;
-}
-
-.container:hover .middle {
-  opacity: 1;
 }
 
 
 /***FOOTER***/
 .footer-sec {
     background-image: linear-gradient(#FFFFFFFF, #7A7A7AFF);
-    padding-top: 59px;
-    padding-bottom: 10px;
+    padding: 10px;
+    padding-top: 20px;
 }
 
 div.footer-col{
@@ -231,37 +209,38 @@ div.footer-col img.social-icons {
 	    text-align: center;
 	}
 
+	/*  HERO  */
+    .hero {
+        min-height: 275px;
+    }
+    .hero-content {
+        padding-top: 50px;
+    }
+    .hero-title {
+        font-size: 26px;
+    }
+    .hero-content p {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
     /* INTRO */
     div.intro-sec {
         margin:0;
     }
-    div.intro-para h1 {
+
+    div.intro-para h2 {
     	text-align: center;
     	font-size: 30px;
-        margin: 10px;
     }
+    
     div.intro-para p {
-		margin: 5px 10px 5px 20px;
-
-        font-size: 18px;
+		font-size: 18px;
 		line-height: 1.2;
-    }
-
-    div.list {
-         text-align: center;
-         list-style-position: inside;    
-     }
-
-    div.intro-image img {
-    	width: 300px;
-    	height: auto;
     }
 
     /* FOOTER */
 
-    .footer-sec{
-        padding:0;
-    }
     div.footer-col{
         margin: 10px;
     }
