@@ -129,10 +129,6 @@ header #main-navigation ul li a:hover {
 
 /***INTRO COPY***/
 
-div.intro-sec {
-    
-}
-
 div.intro-para h2 {
 	margin: 15px;
 	display: block;
@@ -147,6 +143,43 @@ div.intro-para p {
 	line-height: 1.25;
 }
 
+hr.intro{
+    border: 2px solid #A0A0A0;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+/***TABLE***/
+div.table{
+    margin-bottom: -11px;
+    padding-bottom: 10px;
+}
+
+div.table div.team {
+    text-align: center;
+}
+
+div.table div.team h3{
+    font-variant: small-caps;
+    font-size: 24px;
+    word-spacing: 0.5px;
+}
+
+div.table div.highlights p {
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
+div.table div.team img {
+    width: 250px;
+    height: auto;
+    box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.57);
+}
+
+hr.table-divider {
+    border: 2px solid #A0A0A0;
+    margin: 20px;
+}
 
 /***FOOTER***/
 .footer-sec {
@@ -192,7 +225,7 @@ div.footer-col img.social-icons {
 @media screen and (max-width: 680px) {
 
 /***DEFAULT***/
-	.col-6, .col-4 {
+	.col-6, .col-4, .col-5, .col-7 {
 		width: 100%;
 	}
 
@@ -237,6 +270,11 @@ div.footer-col img.social-icons {
     div.intro-para p {
 		font-size: 18px;
 		line-height: 1.2;
+    }
+
+    /*TABLE*/
+    div.table div.highlights p {
+        margin: 20px;
     }
 
     /* FOOTER */
