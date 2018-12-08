@@ -96,16 +96,17 @@ header #main-navigation ul li a:hover {
     padding: 5px 4px;
 } 
 
+
 /***INTRO COPY***/
 div.intro-para {
-    margin: 20px;
-    margin-bottom: 0;
-    padding: 10px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/blue-line.png');
+    background-repeat: no-repeat;
+    background-size: 1664px 107px;
     text-align: center;
 }
 
 div.intro-para h1 {
-    margin-top: 0;
+    margin-top: 20px;
     font-size: 40px;
     font-variant: small-caps; 
 }
@@ -116,73 +117,7 @@ div.intro-para h2 {
     font-variant: small-caps; 
 }
 
-/***EXPERIENCE CARDS***/
 
-div.experience-card {
-    border: 3px solid #000000;
-    margin: 25px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 7px 8px 21px 1px rgba(0,0,0,0.75);
-    background-color: #d2e5f86b;
-}
-
-div.experience-header h3 {
-    font-family: 'Rock Salt', cursive, Arial;
-    font-variant: small-caps;
-    font-size: 30px;
-    font-weight: bolder;
-    margin: 0;
-    letter-spacing: 2.2px;
-}
-
-div.experience-header p {
-    margin: 3px;
-}
-
-div.experience-header img {
-    height: 100px;
-    width: auto;
-}
-
-/***INHOUSE SEC***/
-div.inhouse-agency {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/blue-line.png');
-    background-repeat: no-repeat;
-    background-size: 1664px 107px;
-}
-
-div.inhouse-agency-intro h2{
-    font-size: 36px;
-    text-align: center;
-    font-variant: small-caps; 
-    margin-bottom: 10px;
-}
-
-div.inhouse-agency-intro p{
-    line-height: 1.4;
-    font-size: 28px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 5px;
-    font-weight: 500;
-    letter-spacing: -1px;
-    text-align: center;
-}
-
-/***BRANDS***/
-div.brand-row {
-    margin: 30px;
-}
-
-div.brand-logos{
-    text-align: center;
-}
-
-div.brand-logos img {
-    height: 100px;
-    width: auto;
-}
 
 /***FOOTER***/
 .footer-sec {
